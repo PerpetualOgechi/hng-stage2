@@ -82,8 +82,8 @@ const Cart = () => {
                         className=" px-10 "
                     >
                         {
-                            cartItems.map(category => (
-                                <div href={"/"} className=" flex flex-col p-5 font-bold border-b rounded md:flex-row">
+                            cartItems.map((category, index) => (
+                                <div href={"/"} key={index} className=" flex flex-col p-5 font-bold border-b rounded md:flex-row">
                                     <div className="w-[250px] ">
                                         <img src={category.img} alt="" className="w-full " />
                                     </div>
@@ -158,8 +158,8 @@ const Cart = () => {
 
                     }}>
                     {
-                        mayLike.map(category => (
-                            <Link href={"/"} className=" border text-[12px] font-bold rounded bg-[#fff] text-[#000000] p-3 ">
+                        mayLike.map((category, index) => (
+                            <Link href={"/"} key={index} className=" border text-[12px] font-bold rounded bg-[#fff] text-[#000000] p-3 ">
                                 <div className="w-full ">
                                     <img src={category.img} alt="" className="w-full " />
                                 </div>

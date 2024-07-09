@@ -94,8 +94,8 @@ const MenCollection = () => {
 
                 }}>
                 {
-                    categories.map(category => (
-                        <Link href={"/"} className=" border text-[12px] font-bold rounded bg-[#fff] text-[#000000] p-3 ">
+                    categories.map((category, index) => (
+                        <Link href={"/"} key={index} className=" border text-[12px] font-bold rounded bg-[#fff] text-[#000000] p-3 ">
                             <div className="w-full ">
                                 <img src={category.img} alt="" className="w-full " />
                             </div>
