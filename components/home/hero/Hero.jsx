@@ -23,7 +23,7 @@ const Hero = () => {
                     </div>
                     <div className='pl-8'>
                         <h1 className='text-[55px] text-[#fff] font-medium'>FIND YOUR  <br />TRUE  STYLE <br /> HERE</h1>
-                        {/* <h1 className='max-w-[450px] text-[55px] text-[#fff] font-medium'>FIND YOUR  TRUE  STYLE HERE</h1> */}
+
                     </div>
                 </div>
             </div>
