@@ -10,10 +10,7 @@ const Hero = () => {
                 <div className='  w-full h-[400px] bg-cover bg-no-repeat bg-left' style={{
                     backgroundImage: `url("polygon1.png")`,
                 }} >
-                    {/* <div className='justify-self-end   w-[300px] top-0 bottom-0 right-0 '> */}
-                    {/* <img src="polygon 1.png" alt="" className='w-full h-full' /> */}
-                    {/* </div> */}
-                    {/* <div className=''> */}
+
 
                     <div className='flex mx-auto pt-8 px-8 gap-10 my-5 w-full'>
                         <div className='flex bg-white rounded-md items-center gap-5  px-5'>
