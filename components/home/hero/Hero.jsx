@@ -8,7 +8,7 @@ const Hero = () => {
             <div className=' flex justify-between'>
 
                 <div className='  w-full h-[400px] bg-cover bg-no-repeat bg-left' style={{
-                    backgroundImage: `url("polygon1.png")`,
+                    backgroundImage: `url("polygon.png")`,
                 }} >
 
 
