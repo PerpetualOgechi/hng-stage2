@@ -124,7 +124,7 @@ const MenCollection = () => {
                                         <p>4.5</p>
 
                                         <div className='flex'>
-                                            <img src="star.svg" alt="" />
+                                            <img src="star2.png" alt="" />
                                             <img src="star.svg" alt="" />
                                             <img src="star.svg" alt="" />
                                             <img src="star.svg" alt="" />
