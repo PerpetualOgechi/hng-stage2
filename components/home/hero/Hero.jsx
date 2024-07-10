@@ -12,7 +12,7 @@ const Hero = () => {
                 }} >
 
 
-                    <div className='flex mx-auto pt-8 px-8 gap-10 my-5 w-full'>
+                    <div className='flex  flex-col items-center mx-auto pt-8 px-8 gap-10 my-5 w-full md:flex-row'>
                         <div className='flex bg-white rounded-md items-center gap-5  px-5'>
                             <img src="search.svg" alt="" width={30} />
                             <input type="text" placeholder='Search Lapis' className='h-full' />
@@ -22,7 +22,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className='pl-8'>
-                        <h1 className='text-[55px] text-[#fff] font-medium'>FIND YOUR  <br />TRUE  STYLE <br /> HERE</h1>
+                        <h1 className='text-[30px] text-[#fff] font-medium md:text-[55px]'>FIND YOUR  <br />TRUE  STYLE <br /> HERE</h1>
 
                     </div>
                 </div>
