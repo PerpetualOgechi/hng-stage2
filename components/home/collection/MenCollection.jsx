@@ -124,11 +124,11 @@ const MenCollection = () => {
                                         <p>4.5</p>
 
                                         <div className='flex'>
-                                            <img src="star2.png" alt="" />
-                                            <img src="star.svg" alt="" />
-                                            <img src="star.svg" alt="" />
-                                            <img src="star.svg" alt="" />
-                                            <img src="subtract.svg" alt="" />
+                                            <img src="star2.png" alt="" width={20} />
+                                            <img src="star2.png" alt="" width={20} />
+                                            <img src="star2.png" alt="" width={20} />
+                                            <img src="star2.png" alt="" width={20} />
+                                            <img src="star-half.png" alt="" width={10} />
                                         </div>
                                     </div>
                                     <div className='w-[50%] flex justify-center'>
