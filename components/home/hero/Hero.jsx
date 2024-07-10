@@ -13,9 +13,9 @@ const Hero = () => {
 
 
                     <div className='flex  flex-col items-center mx-auto pt-8 px-8 gap-10 my-5 w-full md:flex-row'>
-                        <div className='flex bg-white rounded-md items-center gap-5  px-5'>
+                        <div className='flex bg-white rounded-md items-center gap-5 py-2  px-5 md:w-[50%]'>
                             <img src="search.svg" alt="" width={30} />
-                            <input type="text" placeholder='Search Lapis' className='h-full' />
+                            <input type="text" placeholder='Search Lapis' className='' />
                         </div>
                         <div>
                             <button className='py-3 px-8 bg-white text-black rounded-md'>Search</button>
