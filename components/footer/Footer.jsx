@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='border-t-2 border-[#838282] flex flex-col items-center px-5 justify-center py-5'>
-                <div className='flex gap-5 pr-20 md:hidden'>
+                <div className='flex justify-center gap-5 pr-20 md:hidden'>
                     <div className='flex items-center gap-5'>
                         <img src="facebook.svg" width={30} alt="" />
 

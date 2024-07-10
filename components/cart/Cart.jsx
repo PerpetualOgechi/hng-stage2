@@ -5,13 +5,13 @@ import Link from 'next/link'
 const Cart = () => {
     const cartItems = [
         {
-            img: "T-shirt.png",
+            img: "hoody.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "jacket.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
@@ -27,25 +27,25 @@ const Cart = () => {
 
     const mayLike = [
         {
-            img: "T-shirt.png",
+            img: "army-green.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "jacket.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "caggo-pant.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "short.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"

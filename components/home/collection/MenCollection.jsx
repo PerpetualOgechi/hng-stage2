@@ -5,7 +5,13 @@ import Link from 'next/link'
 const MenCollection = () => {
     const categories = [
         {
-            img: "T-shirt.png",
+            img: "short.png",
+            name: "Designed by Feramo",
+            title: "Men Tready Catual wear",
+            description: "Explore defferent sizes and tasts of our buger"
+        },
+        {
+            img: "hoody.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
@@ -17,61 +23,55 @@ const MenCollection = () => {
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "caggo-pant.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "army-green.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "tootle-neck.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "jacket.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "office-shirt.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "shirt.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "partern-shirt.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
+            img: "kimono.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
         },
         {
-            img: "T-shirt.png",
-            name: "Designed by Feramo",
-            title: "Men Tready Catual wear",
-            description: "Explore defferent sizes and tasts of our buger"
-        },
-        {
-            img: "T-shirt.png",
+            img: "long-sleeve.png",
             name: "Designed by Feramo",
             title: "Men Tready Catual wear",
             description: "Explore defferent sizes and tasts of our buger"
