@@ -132,12 +132,13 @@ const MenCollection = () => {
                     products.map((category, index) => {
                         const price = category?.current_price
                         console.log(price)
-                        const image = category?.photos
+                        const image = category?.photos[0]?.url
                         console.log(image)
                         return (
                             <Link href={"/"} key={index} className=" border text-[12px] font-bold rounded bg-[#fff] text-[#000000] p-3 ">
                                 <div className="w-full ">
-                                    {/* <img src={`https://api.timbu.cloud/images/${imageSrc}`} alt={product.name} /> */}
+                                    {/* <img src={image} alt="" /> */}
+                                    <img src={`https://api.timbu.cloud/images/${image}`} alt={products.name} />
 
                                 </div>
                                 <div className='flex justify-center pt-3'>
