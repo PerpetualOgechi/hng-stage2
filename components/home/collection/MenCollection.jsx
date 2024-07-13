@@ -32,8 +32,7 @@ const MenCollection = () => {
 
     };
     console.log(products)
-    // const imageSrc = products.photos.url
-    // console.log(imageSrc)
+
     useEffect(() => {
         fetchUserCart();
     }, [])
@@ -137,7 +136,7 @@ const MenCollection = () => {
                         return (
                             <Link href={"/"} key={index} className=" border text-[12px] font-bold rounded bg-[#fff] text-[#000000] p-3 ">
                                 <div className="w-full ">
-                                    {/* <img src={image} alt="" /> */}
+
                                     <img src={`https://api.timbu.cloud/images/${image}`} alt={products.name} />
 
                                 </div>
