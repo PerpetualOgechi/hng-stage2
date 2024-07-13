@@ -22,7 +22,7 @@ const MenCollection = () => {
             console.log(response);
             console.log(response?.data?.response?.items);
             setProducts(response?.data?.response?.items)
-            // console.log(products?.current_price[0]?.USD[0])
+
 
 
         } catch (error) {
