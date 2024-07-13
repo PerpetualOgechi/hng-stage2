@@ -11,7 +11,7 @@ const organisationId = "b5163eb7a959483f90a7df7cd29f8599"
 
 const MenCollection = () => {
     const [products, setProducts] = useState([])
-    // const [price, setPrice] = useState([])
+
     const fetchUserCart = async () => {
         try {
             const response = await axios.get(`/api/product`,
